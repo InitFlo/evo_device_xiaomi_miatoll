@@ -1,0 +1,24 @@
+[
+  {
+    "branch": "lineage-21",
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep"
+  },
+  {
+    "branch": "uno",
+    "remote": "github",
+    "repository": "tequilaOS/platform_kernel_xiaomi_sm6250",
+    "target_path": "kernel/xiaomi/sm6250"
+  },
+  {
+    "branch": "main",
+    "remote": "github",
+    "repository": "clarencelol/vendor_xiaomi_miuicamera",
+    "target_path": "vendor/xiaomi/miuicamera"
+  },
+  {
+    "repository": "vendor_xiaomi_miatoll",
+    "target_path": "vendor/xiaomi/miatoll"
+  }
+]
