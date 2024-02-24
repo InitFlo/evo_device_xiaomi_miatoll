@@ -415,7 +415,8 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.sh \
     init.qti.chg_policy.sh \
-    init.sensors_fixup.sh
+    init.sensors_fixup.sh \
+    init.swappiness.sh
 
 PRODUCT_PACKAGES += \
     init.device.rc \
