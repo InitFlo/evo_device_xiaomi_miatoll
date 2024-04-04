@@ -6,9 +6,9 @@
     "target_path": "hardware/sony/timekeep"
   },
   {
-    "branch": "uno",
+    "branch": "14",
     "remote": "github",
-    "repository": "tequilaOS/platform_kernel_xiaomi_sm6250",
+    "repository": "clarencekopitiam/kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/sm6250"
   },
   {
