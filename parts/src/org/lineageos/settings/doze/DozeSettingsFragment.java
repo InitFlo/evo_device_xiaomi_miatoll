@@ -20,7 +20,7 @@ package org.lineageos.settings.doze;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.app.DialogFragment;
+import androidx.fragment.app.DialogFragment;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -30,14 +30,14 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceFragment;
+import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreference;
 
 import com.android.settingslib.widget.MainSwitchPreference;
 
 import org.lineageos.settings.R;
 
-public class DozeSettingsFragment extends PreferenceFragment implements
+public class DozeSettingsFragment extends PreferenceFragmentCompat implements
         Preference.OnPreferenceChangeListener, OnCheckedChangeListener  {
 
     private MainSwitchPreference mSwitchBar;
@@ -133,7 +133,7 @@ public class DozeSettingsFragment extends PreferenceFragment implements
 
     private void showHelp() {
         HelpDialogFragment fragment = new HelpDialogFragment();
-        fragment.show(getFragmentManager(), "help_dialog");
+        fragment.show(getSupportFragmentManager(), "help_dialog");
     }
 
     public static class HelpDialogFragment extends DialogFragment {
