@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Ambient settings -->
-    <string name="ambient_enable">Use Ambient display</string>
-
     <!-- Clear Speaker -->
     <string name="clear_speaker_title">Clear speaker</string>
     <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>

@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Ambient settings -->
-    <string name="ambient_enable">アンビエント表示</string>
-
     <!-- Clear speaker -->
     <string name="clear_speaker_title">スピーカー掃除</string>
     <string name="clear_speaker_summary">30秒音楽を鳴らしてスピーカーを清掃する</string>

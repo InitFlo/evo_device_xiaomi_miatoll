@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Ambient settings -->
-    <string name="ambient_enable">Hiển thị môi trường xung quanh</string>
-
     <!-- Clear Speaker -->
     <string name="clear_speaker_title">Làm sạch loa</string>
     <string name="clear_speaker_summary">Phát một đoạn âm thanh dài 30 giây để làm sạch loa</string>
